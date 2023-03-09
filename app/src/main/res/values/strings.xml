@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">laboratorna2</string>
+    <string name="nickname">Sheva1814</string>
+    <string name="name">Taras Shevchenko</string>
+    <string name="country">Ukraine</string>
+    <string name="birth">09.03.1814</string>
+    <string name="interests">writing, drawing</string>
+    <string name="friends">Friends: 13</string>
+    <string name="bf1">Panteleimon Kulish</string>
+    <string name="bf2">Ira Aldridge</string>
+    <string name="bf3">Karl Bryullov</string>
+    <string name="bf4">Vasyl Zhukovsky</string>
+    <string name="bf5">Vasyl Sternberg</string>
 </resources>
