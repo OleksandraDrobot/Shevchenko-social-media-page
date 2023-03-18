@@ -11,7 +11,6 @@
         android:id="@+id/features"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="200dp"
         android:layout_marginBottom="35dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -179,13 +178,14 @@
         android:id="@+id/info"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="190dp"
-        android:layout_marginBottom="300dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="350dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/head">
 
         <TextView
             android:id="@+id/textName"
@@ -229,14 +229,14 @@
             android:id="@+id/mainPhoto"
             android:layout_width="155dp"
             android:layout_height="166dp"
-            app:srcCompat="@mipmap/Tara_photo" />
+            android:src="@mipmap/taras_photo_1_foreground" />
 
         <ImageView
             android:id="@+id/secondPhoto"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
-            app:srcCompat="@mipmap/Tara3_foreground" />
+            android:src="@mipmap/taras_photo_2_foreground" />
 
         <ImageView
             android:id="@+id/thirdPhoto"
@@ -244,7 +244,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="5dp"
-            app:srcCompat="@mipmap/Tara2_" />
+            android:src="@mipmap/taras_photo_3_foreground" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
