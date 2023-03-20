@@ -269,13 +269,22 @@
             android:hint="Enter password"
             android:layout_marginTop="10dp"/>
 
+        <TextView
+            android:id="@+id/textToError"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:layout_marginTop="10dp"
+            android:text="" />
+
         <Button
-            android:id="@+id/button"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:id="@+id/buttonToEnter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:backgroundTint="@color/black"
             android:text="Enter"
+            android:textSize="17dp"
             android:layout_marginTop="20dp"/>
 
     </LinearLayout>
