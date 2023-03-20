@@ -247,4 +247,37 @@
             android:src="@mipmap/taras_photo_3_foreground" />
     </LinearLayout>
 
+    <LinearLayout
+        android:id="@+id/LayoutToEnter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/enterLogin"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter login"/>
+
+        <EditText
+            android:id="@+id/enterPassword"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter password"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/black"
+            android:text="Enter"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
