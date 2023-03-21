@@ -253,39 +253,39 @@
         android:layout_height="match_parent"
         android:background="#FFFFFF"
         android:clickable="true"
-        android:orientation="vertical"
-        android:gravity="center">
+        android:gravity="center"
+        android:orientation="vertical">
 
         <EditText
             android:id="@+id/enterLogin"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:hint="Enter login"/>
+            android:hint="Enter login" />
 
         <EditText
             android:id="@+id/enterPassword"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:hint="Enter password"
-            android:layout_marginTop="10dp"/>
+            android:layout_marginTop="10dp"
+            android:hint="Enter password" />
 
         <TextView
             android:id="@+id/textToError"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/red"
             android:layout_marginTop="10dp"
-            android:text="" />
+            android:text=""
+            android:textColor="@color/red" />
 
         <Button
             android:id="@+id/buttonToEnter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginTop="20dp"
             android:backgroundTint="@color/black"
             android:text="Enter"
-            android:textSize="17dp"
-            android:layout_marginTop="20dp"/>
+            android:textSize="17dp" />
 
     </LinearLayout>
 
